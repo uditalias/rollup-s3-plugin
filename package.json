@@ -1,12 +1,10 @@
 {
   "name": "rollup-s3-plugin",
   "version": "1.0.0",
-  "description": "Uploads compiled assets to s3 after build",
+  "description": "Uploads compiled assets to s3 after rollup build",
   "main": "lib/s3_plugin.js",
   "scripts": {
-    "prep:major": "npm run build && npm version major",
-    "prep:minor": "npm run build && npm version minor",
-    "prep:patch": "npm run build && npm version patch"
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -39,5 +37,8 @@
   },
   "peerDependencies": {
     "rollup": ">=1.0.0"
+  },
+  "devDependencies": {
+    "release-it": "^12.4.3"
   }
 }
