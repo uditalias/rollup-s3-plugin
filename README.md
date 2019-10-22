@@ -10,7 +10,7 @@ Based on the [webpack-s3-plugin][1] by [MikaAK](https://github.com/MikaAK) so al
 ### Install Instructions
 
 ```bash
-$ npm i rollup-s3-plugin
+$ npm i -D rollup-s3-plugin
 ```
 
 ### Usage
