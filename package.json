@@ -1,6 +1,6 @@
 {
   "name": "rollup-s3-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Uploads compiled assets to s3 after rollup build",
   "main": "lib/s3_plugin.js",
   "scripts": {
