@@ -39,6 +39,6 @@
     "rollup": ">=1.0.0"
   },
   "devDependencies": {
-    "release-it": "^12.4.3"
+    "release-it": "^15.6.0"
   }
 }
